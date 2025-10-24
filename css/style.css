@@ -42,6 +42,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+      font-family: 'fortune';
+      src: url('../fonts/fortune.otf') format('opentype');
+    }
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -56,13 +61,13 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 1rem;
+  font-family: "fortune", sans-serif;
+  font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
   color: #757575;
   text-align: left;
-  background-color: #fff;
+  background-color: #000;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -365,7 +370,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #211E1C;
+  color: #fff;
 }
 
 h1, .h1 {
@@ -6095,7 +6100,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F9A392 !important;
+  background-color: #797979 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6155,7 +6160,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #FEF1EF !important;
+  background-color: #2d2d2d !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6175,7 +6180,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #000 !important;
 }
 
 .bg-transparent {
@@ -9530,7 +9535,7 @@ h6,
   padding: 30px 15px;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #211E1C;
+  color: #FFF;
   outline: none;
 }
 
