@@ -43,8 +43,16 @@
 }
 
 @font-face {
-      font-family: 'fortune';
-      src: url('../fonts/dancing.otf') format('opentype');
+      font-family: 'alexbrush';
+      src: url('../fonts/alexbrush.ttf') format('opentype');
+    }
+@font-face {
+      font-family: 'arkhip';
+      src: url('../fonts/arkhip.ttf') format('opentype');
+    }
+@font-face {
+      font-family: 'calibri';
+      src: url('../fonts/calibrig.ttf') format('opentype');
     }
 
 html {
@@ -9603,7 +9611,7 @@ h6,
 }
 
 .bg-appointment {
-  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-1.jpg), no-repeat center center;
+  background: linear-gradient(rgba(33, 30, 28, 0.7), rgba(33, 40, 28, 0.7)), url(../img/carousel-11.jpg), no-repeat center center;
   background-size: cover;
 }
 
