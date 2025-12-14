@@ -52,7 +52,7 @@
     }
 @font-face {
       font-family: 'calibri';
-      src: url('../fonts/calibrig.ttf') format('opentype');
+      src: url('../fonts/calibril.ttf') format('opentype');
     }
 
 html {
@@ -4095,6 +4095,7 @@ input[type="button"].btn-block {
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;
+  background-color: rgb(246, 120, 96);
 }
 
 @media (max-width: 575.98px) {
@@ -9577,7 +9578,6 @@ h6,
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(33, 30, 28, 0.7);
   z-index: 1;
 }
 
